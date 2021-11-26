@@ -1,3 +1,5 @@
+#!/usr/bin/env sh
+
 # 确保脚本抛出遇到的错误
 set -e
 
@@ -14,6 +16,6 @@ git commit -m 'docs(): update'
 
 # 覆盖式地将本地仓库发布至github，因为发布不需要保留历史记录
 # 格式为：git push -f git@github.com:'用户名'/'仓库名'.git master
-git push -f git@github.com:kevinZzzzzzz/kevinBlog.git master:gh-pages
+git push -f git@github.com:kevinZzzzzzz/kevinZzzzzBlog.git master:gh-pages
 
 cd -
