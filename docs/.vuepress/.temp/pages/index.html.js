@@ -6,12 +6,12 @@ export const data = {
   "frontmatter": {
     "home": true,
     "heroImage": "/kevinZzzzzz.jpg",
-    "heroText": "kevinZzzzzz的前端世界",
+    "heroText": "kevinZzzzzz的小记",
     "tagline": "向上生长 享受快乐",
     "actions": [
       {
         "text": "开始徜徉 →",
-        "link": "/pages/kevin1/html.md",
+        "link": "/pages/base/html.md",
         "type": "primary"
       }
     ],

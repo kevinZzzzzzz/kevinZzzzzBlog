@@ -2,7 +2,7 @@ export const siteData = {
   "base": "/kevinZzzzzBlog/",
   "lang": "zh-cn",
   "title": " kevinZzzzzz Blog",
-  "description": "heroText: kevinZzzzzz的前端世界",
+  "description": "heroText: kevinZzzzzz的小记",
   "head": [
     [
       "link",

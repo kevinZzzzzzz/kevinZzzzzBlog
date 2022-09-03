@@ -1,6 +1,6 @@
 export const data = {
   "key": "v-2045edb3",
-  "path": "/pages/kevin1/html.html",
+  "path": "/pages/base/html.html",
   "title": "",
   "lang": "zh-cn",
   "frontmatter": {},
@@ -73,7 +73,7 @@ export const data = {
       "children": []
     }
   ],
-  "filePathRelative": "pages/kevin1/html.md",
+  "filePathRelative": "pages/base/html.md",
   "git": {
     "updatedTime": 1637945383000,
     "contributors": [
@@ -84,4 +84,17 @@ export const data = {
       }
     ]
   }
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }
